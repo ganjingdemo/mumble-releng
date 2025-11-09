@@ -4,20 +4,24 @@
 # can be found in the LICENSE file in the source tree or at
 # <http://mumble.info/mumble-releng/LICENSE>.
 
+#
+# The downloaded file SHA256
+#
+# bf8ae210546f1130587c0aa8fde04854b8a0185e1cc2a0cea0a987baaa82d1e1  mDNSResponder-mDNSResponder-765.30.11.tar.gz
+#
+
 urls=(
 	"http://releng-distfiles.mumble.info/releng-distfiles/mDNSResponder-765.30.11.tar.gz"
 	"https://opensource.apple.com/tarballs/mDNSResponder/mDNSResponder-765.30.11.tar.gz"
 )
 
 digests=(
-	"sha1:9f47d11c5b7ef2d4e2961c1c6f8cb33f358a5587"
-	"sha256:e7a98aaa3a4327c65f19a2d656aa9e3ff0208c71773e9c2aecee48cf76e1e7a7"
-	"blake2:99c4314793d5deaa2749ca9ee14467d2fbe31e3b7b45b5540dc6719ab9b19bb321e91140ab0327e44759808c915db4517df2fe0f9867d11d276a193e7faf5740"
+	"sha256:bf8ae210546f1130587c0aa8fde04854b8a0185e1cc2a0cea0a987baaa82d1e1"
 )
 
 function extract {
-	tar -zxf mDNSResponder-765.30.11.tar.gz
-	cd mDNSResponder-765.30.11
+	tar -zxf mDNSResponder-mDNSResponder-765.30.11.tar.gz
+	cd mDNSResponder-mDNSResponder-765.30.11
 }
 
 function prepare {
