@@ -6,7 +6,7 @@
 
 urls=(
 	"http://releng-distfiles.mumble.info/releng-distfiles/bzip2-1.0.6.tar.gz"
-	"http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+	"https://sourceware.org/pub/bzip2/bzip2-1.0.6.tar.gz"
 )
 
 digests=(
