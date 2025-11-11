@@ -6,12 +6,11 @@
 
 urls=(
 	"http://releng-distfiles.mumble.info/releng-distfiles/wix310-binaries.zip"
-	"http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wix&DownloadId=1587180&FileTime=131118854877130000&Build=21031#fn=wix310-binaries.zip"
+	"https://github.com/wixtoolset/wix3/releases/download/wix3104rtm/wix310-binaries.zip"
 )
 
 digests=(
-	"sha1:aa6a9b4c578ccc6da05670bf5393effb1392b89d"
-	"sha256:493145b3fac22bdf8c55142a9f96ef8136d56b38d78a2322f13f1ba11f9cf2f8"
+	"sha256:8333d752027bb903c33d881e3a3e7f3338a9e6c436a96dbc20e71356d5e154e9"
 )
 
 function extract {
